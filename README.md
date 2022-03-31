@@ -27,7 +27,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 #### Desktop Version 
-![Desktop](https://gifs.com/embed/screen-mobile-gif-Z8Gkn2)
+![Desktop](https://gifs.com/gif/screen-desktop-jYgxmY)
 
 <!-- <img src='./images/Screen-desktop.mov' style='padding: 20px'/> -->
 
