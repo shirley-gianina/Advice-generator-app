@@ -11,8 +11,10 @@
 
 .dice img {
   width: 15px;
+  transition: transform 0.5s;
 }
 
 .dice img:hover {
-  box-shadow: 0px 0px 18px 13px var(--Neo-Green)
+  box-shadow: 0px 0px 50px 20px var(--Neo-Green);
+  transform: rotate(90deg);
 }

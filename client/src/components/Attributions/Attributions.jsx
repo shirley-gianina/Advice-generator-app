@@ -4,7 +4,7 @@ import "./Attributions.css";
 const Attributions = () => {
   return (
     <footer>
-      <p className="attribution">
+      <blockquote className="attribution">
         Challenge by{" "}
         <a
           href="https://www.frontendmentor.io/profile/shirley-gianina"
@@ -14,11 +14,15 @@ const Attributions = () => {
           Frontend Mentor
         </a>
         . Coded by{" "}
-        <a href="https://github.com/shirley-gianina" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/shirley-gianina"
+          target="_blank"
+          rel="noreferrer"
+        >
           Shirley Gianina
         </a>
         .
-      </p>
+      </blockquote>
     </footer>
   );
 };

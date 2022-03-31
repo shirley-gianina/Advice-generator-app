@@ -1,10 +1,20 @@
-import React from "react";
+import { React, useEffect, useState } from "react";
 import { Card } from "react-bootstrap";
-import divider from "../../images/pattern-divider-desktop.svg";
+import DividerDesktop from "../../images/pattern-divider-desktop.svg";
+import DividerMobile from "../../images/pattern-divider-mobile.svg";
+
 import Dice from "../../components/Dice/Dice";
 import "./CardAdvice.css";
 
 const CardAdvice = ({ id, advice, handleClick }) => {
+  const [mobile, setMobile] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("resize", () => {
+      window.innerWidth <= 960 ? setMobile(true) : setMobile(false);
+    });
+  }, []);
+
   return (
     <>
       <Card className="card-advice" style={{ width: "28rem" }}>
@@ -13,7 +23,20 @@ const CardAdvice = ({ id, advice, handleClick }) => {
           <Card.Text className="card-content">{`"${advice}"`}</Card.Text>
         </Card.Body>
         <Card.Text>
-          <img className="img-fluid" src={divider} alt="divider-img" />
+          {mobile ? (
+            <img
+              className="img-fluid"
+              src={DividerMobile}
+              alt="divider-mobile-img"
+            />
+          ) : (
+            <img
+              className="img-fluid"
+              src={DividerDesktop}
+              alt="divider-desktop-img"
+            />
+          )}
+          {/* <img className="img-fluid" src={DividerDesktop} alt="divider-img" /> */}
         </Card.Text>
         <Dice onClick={handleClick} />
       </Card>
