@@ -15,6 +15,6 @@
 }
 
 .dice img:hover {
-  box-shadow: 0px 0px 50px 20px var(--Neo-Green);
+  box-shadow: 0px 0px 30px 10px var(--Neo-Green);
   transform: rotate(90deg);
 }

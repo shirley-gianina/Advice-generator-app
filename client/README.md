@@ -27,7 +27,7 @@ Users should be able to:
 <img src='./images/Screen-desktop.mov' style='padding: 20px'/>
 
 #### Mobile Version
-<img src='./images/Screen-mobile.mov' style='padding: 20px'/>
+<iframe src='//gifs.com/embed/screen-mobile-gif-Z8Gkn2' frameborder='0' scrolling='no' width='412px' height='894px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
 
 
 ### Links
