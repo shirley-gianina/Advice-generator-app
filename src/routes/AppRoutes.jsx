@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import AdvicePage from "../pages/AdvicePage/AdvicePage";
 
@@ -8,6 +8,6 @@ const AppRoutes = () => {
       <Route path="/" element={<AdvicePage />} />
     </Routes>
   );
-}
+};
 
-export default AppRoutes
+export default AppRoutes;
