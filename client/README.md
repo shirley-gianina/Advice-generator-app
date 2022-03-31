@@ -4,15 +4,18 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+- [Frontend Mentor - Advice generator app solution](#frontend-mentor---advice-generator-app-solution)
+  - [Table of contents](#table-of-contents)
+  - [Overview](#overview)
+    - [The challenge](#the-challenge)
+      - [Desktop Version](#desktop-version)
+      - [Mobile Version](#mobile-version)
+    - [Links](#links)
+  - [My process](#my-process)
+    - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
+    - [Continued development](#continued-development)
+  - [Author](#author)
 
 ## Overview
 
@@ -24,16 +27,18 @@ Users should be able to:
 - See hover states for interactive elements
 
 #### Desktop Version 
+![Desktop](https://gifs.com/embed/screen-mobile-gif-Z8Gkn2)
+
 <!-- <img src='./images/Screen-desktop.mov' style='padding: 20px'/> -->
 
 #### Mobile Version
-<iframe src='//gifs.com/embed/screen-mobile-gif-Z8Gkn2' frameborder='0' scrolling='no' width='412px' height='894px' style='-webkit-backface-visibility: hidden;-webkit-transform: scale(1);' ></iframe>
+![Mobile](https://gifs.com/embed/screen-mobile-gif-Z8Gkn2)
 
 
 ### Links
 
 - Solution URL: []()
-- Live Site URL: []()
+- Live Site URL: [https://j.gifs.com/Z8Gkn2.gif]()
 
 ## My process
 
