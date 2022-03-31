@@ -1,0 +1,27 @@
+:root {
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neo-Green: hsl(150, 100%, 66%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --DarkGrayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  background-color: var(--Dark-Blue);
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100vh - 45px);
+}
+
+/* 
+@media only screen and (max-width: 375px) {
+
+}  */
